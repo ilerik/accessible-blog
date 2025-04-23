@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Home() {
   return (
     <article>
@@ -10,7 +12,7 @@ export default function Home() {
           <li>
             <article>
               <h3>
-                <a href="/posts/first-post">Getting Started with Accessibility</a>
+                <Link href="/posts/first-post/">Getting Started with Accessibility</Link>
               </h3>
               <p>Learn the basics of web accessibility and why it matters.</p>
               <time dateTime="2023-12-01">December 1, 2023</time>
@@ -19,7 +21,7 @@ export default function Home() {
           <li>
             <article>
               <h3>
-                <a href="/posts/second-post">ARIA Best Practices</a>
+                <Link href="/posts/second-post/">ARIA Best Practices</Link>
               </h3>
               <p>Implementing ARIA attributes correctly in your web applications.</p>
               <time dateTime="2023-12-05">December 5, 2023</time>

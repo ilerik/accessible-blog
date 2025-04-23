@@ -6,6 +6,7 @@ const nextConfig = {
         unoptimized: true,
     },
     basePath: '/accessible-blog',
+    trailingSlash: true,
 };
 
 module.exports = nextConfig; 

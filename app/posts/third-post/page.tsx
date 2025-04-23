@@ -1,12 +1,13 @@
 import React from 'react';
+import Link from 'next/link';
 
 export default function ThirdPost() {
   return (
     <article>
       <nav aria-label="Breadcrumb">
         <ol>
-          <li><a href="/">Home</a></li>
-          <li><a href="/posts">Blog Posts</a></li>
+          <li><Link href="/">Home</Link></li>
+          <li><Link href="/posts/">Blog Posts</Link></li>
           <li aria-current="page">Semantic HTML for Better Accessibility</li>
         </ol>
       </nav>
@@ -95,10 +96,10 @@ export default function ThirdPost() {
         <h2>Related Posts</h2>
         <ul>
           <li>
-            <a href="/posts/first-post">Getting Started with Accessibility</a>
+            <Link href="/posts/first-post/">Getting Started with Accessibility</Link>
           </li>
           <li>
-            <a href="/posts/second-post">ARIA Best Practices</a>
+            <Link href="/posts/second-post/">ARIA Best Practices</Link>
           </li>
         </ul>
       </footer>

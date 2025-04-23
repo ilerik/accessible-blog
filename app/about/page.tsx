@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 export default function About() {
   return (
@@ -6,7 +7,7 @@ export default function About() {
       <h1>About This Blog</h1>
       <nav aria-label="Breadcrumb">
         <ol>
-          <li><a href="/">Home</a></li>
+          <li><Link href="/">Home</Link></li>
           <li aria-current="page">About</li>
         </ol>
       </nav>

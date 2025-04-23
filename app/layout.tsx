@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
+import Link from 'next/link';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -23,13 +24,13 @@ export default function RootLayout({
           <nav aria-label="Main Navigation">
             <ul role="menubar">
               <li role="none">
-                <a href="/" role="menuitem">Home</a>
+                <Link href="/" role="menuitem">Home</Link>
               </li>
               <li role="none">
-                <a href="/posts" role="menuitem">Blog Posts</a>
+                <Link href="/posts/" role="menuitem">Blog Posts</Link>
               </li>
               <li role="none">
-                <a href="/about" role="menuitem">About</a>
+                <Link href="/about/" role="menuitem">About</Link>
               </li>
             </ul>
           </nav>
