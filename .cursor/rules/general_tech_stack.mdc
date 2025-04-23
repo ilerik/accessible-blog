@@ -1,0 +1,45 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Tech Stack
+
+## Frontend Framework
+- Next.js (latest version)
+- React (latest version)
+- TypeScript
+- React Server Components
+
+## Styling
+- Tailwind CSS
+- CSS Modules
+
+## State Management
+- React Context API
+- React Query / TanStack Query
+
+## Backend / API
+- Next.js API Routes
+- Edge Runtime support
+
+## Database
+- Prisma ORM
+- PostgreSQL
+
+## Authentication
+- NextAuth.js / Auth.js
+
+## Deployment
+- Vercel
+- Docker containers
+
+## Testing
+- Jest
+- React Testing Library
+- Cypress
+
+## Developer Tools
+- ESLint
+- Prettier
+- Husky for git hooks
